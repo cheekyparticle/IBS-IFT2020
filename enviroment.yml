@@ -1,9 +1,11 @@
-name: example-environment
+channels:
+  - conda-forge
 dependencies:
   - python
   - numpy
-  - pip
+  - matplotlib
+  - pandas
+  - bokeh
+  - rise
   - pip:
-    - matplotlib
-    - scipy
-    - rise
+    - jupyter-contrib-nbextensions
