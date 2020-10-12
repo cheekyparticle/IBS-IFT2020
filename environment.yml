@@ -1,3 +1,4 @@
+name: rise-environment
 channels:
   - conda-forge
 dependencies:
@@ -7,5 +8,3 @@ dependencies:
   - pandas
   - bokeh
   - rise
-  - pip:
-    - jupyter-contrib-nbextensions
